@@ -1,0 +1,141 @@
+#courseModal .modal-dialog {
+	max-width: 75%;
+}
+#courseModal .modal-dialog .modal-header {
+	border: 0;
+}
+#courseModal .modal-dialog .modal-header button.close {
+	float: unset !important;
+	position: absolute;
+	right: 0;
+}
+#courseModal .modal-dialog .modal-header button.close {
+	color: #000 !important;
+	opacity: 1 !important;
+	right: 13px;
+	top: 10px;
+}
+#courseModal .course-box button {
+	background: transparent;
+	border: 0px;
+	padding: 0px;
+}
+#courseModal .modal-dialog .cart-content .heading-wrapper {
+	text-align: center;
+	max-width: 70%;
+	margin: 0px auto 20px;
+}
+#courseModal .modal-dialog .cart-content .heading-wrapper h2 {
+	font-family: "Ivy Mode bold";
+	color: #ff0000;
+	font-size: 35px;
+}
+#courseModal .modal-dialog .cart-content .heading-wrapper p {
+	font-size: 16px;
+	color: #000000;
+	font-family: "Poppins";
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#courseModal .courses .title-wrapper {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#courseModal .courses .title-wrapper h2 {
+	background: #e61212;
+	color: #fff;
+	font-family: "Ivy Mode";
+	position: relative;
+	clip-path: polygon(0 0, 100% 0, 88% 47%, 100% 100%, 0 100%, 13% 46%);
+	margin: 0px auto;
+	display: table;
+	padding: 8px 110px;
+}
+#courseModal .courses .course-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#courseModal .courses .course-flex .course-box {
+	width: 23.5%;
+	margin: 0 8px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+#courseModal .courses .course-flex .course-box .img_box {
+	position: relative;
+	overflow: hidden;
+}
+#courseModal .courses .course-flex .course-box .img_box img {
+	height: 260px;
+	width: 100%;
+	object-fit: cover;
+}
+#courseModal .courses .course-flex .course-box .img_box figure {
+	margin-bottom: 0;
+}
+#courseModal .courses .course-flex .course-box .img_box .price {
+	background: #e61212;
+	color: #fff;
+	font-family: "Ivy Mode";
+	font-size: 17px;
+	position: absolute;
+	bottom: -26%;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+#courseModal .courses .course-flex .course-box .content {
+	padding-top: 25px;
+	text-align: center;
+}
+#courseModal .courses .course-flex .course-box .content h3 {
+	font-size: 20px;
+	color: #000000;
+	font-family: "Ivy Mode";
+	font-weight: 600;
+}
+#courseModal .courses .course-flex .course-box .content p {
+	font-size: 11px;
+	color: #0000007a;
+	font-family: "Poppins";
+}
+#courseModal .all-courses {
+	height: 500px;
+	overflow: auto;
+}
+#courseModal .all-courses::-webkit-scrollbar {
+	width: 0.4em;
+}
+#courseModal .all-courses::-webkit-scrollbar-track {
+	background: #ddd;
+}
+#courseModal .all-courses::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+#courseModal .all-courses .courses {
+	padding-top: 40px;
+}
+#courseModal .all-courses .title {
+	text-align: center;
+	padding-top: 35px;
+}
+#courseModal .all-courses .title h4 {
+	color: #ff0000;
+	font-size: 35px;
+	font-family: "Ivy Mode";
+}
+#courseModal .all-courses .title p {
+	font-family: "Poppins";
+	color: #000000;
+}

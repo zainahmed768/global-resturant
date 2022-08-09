@@ -164,6 +164,16 @@ header#header .menu-heaading-wrapper a {
 	width: 100%;
 	justify-content: space-evenly;
 }
+.banner-sec .all-dish-wrapper .dish-wrapper button {
+	background: transparent;
+	border: 0px;
+	padding: 0px;
+}
+.banner-sec .all-dish-wrapper .dish-wrapper button:focus {
+	outline: none;
+	box-shadow: none;
+	border: 0px;
+}
 .banner-sec .all-dish-wrapper {
 	position: relative;
 	display: flex;

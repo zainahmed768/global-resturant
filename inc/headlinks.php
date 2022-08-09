@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css" />
 <!-- Bootstrap CSS -->
+<link rel="shortcut icon" href="img/dish1.png" type="image/x-icon">
 <!--    Custom CSS-->
 <link rel="stylesheet" href="css/style.css">
 <!--    Custom CSS-->

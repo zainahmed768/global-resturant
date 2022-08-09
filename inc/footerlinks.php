@@ -20,5 +20,13 @@
             $("header .mobile-header").removeClass('show');
         });
         // Mobile Nav
+
+        $('#courseModal .course-box button').click(function() {
+            $('#courseModal').modal().hide();
+        })
+        $('#MenuModal .cart-content .order-summary .button-group button').click(function() {
+            $('#MenuModal').modal().hide();
+            $('#checkoutModal').modal('show');
+        })
     })
 </script>

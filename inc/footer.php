@@ -26,3 +26,4 @@
     </div>
 </footer>
 <?php include 'footerlinks.php'; ?>
+<?php include 'inc/footerlinks.php'; ?>
