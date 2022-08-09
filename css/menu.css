@@ -1,0 +1,152 @@
+#MenuModal .modal-dialog {
+	max-width: 75%;
+}
+#MenuModal .modal-dialog .modal-header {
+	border: 0;
+}
+#MenuModal .modal-dialog .modal-header button.close {
+	float: unset !important;
+	position: absolute;
+	right: 0;
+}
+#MenuModal .modal-dialog .modal-header button.close {
+	color: #000 !important;
+	opacity: 1 !important;
+	right: 13px;
+	top: 10px;
+}
+#MenuModal .modal-dialog .cart-content .heading-wrapper {
+	text-align: center;
+	max-width: 70%;
+	margin: 0px auto 40px;
+}
+#MenuModal .modal-dialog .cart-content .heading-wrapper h2 {
+	font-family: Ivy Mode;
+	color: #ff0000;
+	font-size: 35px;
+}
+#MenuModal .modal-dialog .cart-content .heading-wrapper p {
+	font-size: 16px;
+	color: #000000;
+	font-family: "Poppins";
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#MenuModal .cart-content .cart-products .cart-box {
+	border: 2px dashed #0000004f;
+	padding: 30px 40px 25px;
+	position: relative;
+	background: #fff;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 25px;
+}
+#MenuModal .cart-content .cart-products .cart-box .img-box img {
+	width: 320px;
+}
+#MenuModal .cart-content .cart-products .cart-box .txt {
+	padding-left: 20px;
+}
+#MenuModal .cart-content .cart-products .cart-box .txt h4:first-child {
+	color: #ff0000;
+	text-transform: uppercase;
+	font-family: "Ivy Mode";
+}
+#MenuModal .cart-content .cart-products .cart-box .txt p {
+	font-family: "Poppins";
+	font-size: 14px;
+	color: #000000a6;
+}
+#MenuModal .cart-content .cart-products .cart-box .txt h4.price {
+	margin: 0;
+	font-size: 16px;
+	color: #000000;
+	font-family: "Ivy Mode";
+	font-weight: 600;
+}
+#MenuModal .cart-content .cart-products .cart-box .txt h4.price span {
+	font-weight: 400;
+	margin-right: 7px;
+}
+#MenuModal .cart-content .cart-products .cart-box .cancel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #ff0000;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#MenuModal .cart-content .cart-products .cart-box figure {
+	margin: 0;
+}
+#MenuModal .cart-content .cart-products {
+	height: 465px;
+	overflow: auto;
+}
+#MenuModal .cart-content .cart-products::-webkit-scrollbar {
+	display: none;
+}
+#MenuModal .cart-content .order-summary .summary {
+	border: 2px dashed #0000004f;
+	padding: 30px 40px 25px;
+	position: relative;
+	background: #fff;
+	margin-bottom: 25px;
+}
+#MenuModal .cart-content .order-summary .summary .title {
+	padding-bottom: 20px;
+}
+#MenuModal .cart-content .order-summary .summary .title h2 {
+	color: #ff0000;
+	font-size: 22px;
+	font-family: "Ivy Mode";
+}
+#MenuModal .cart-content .order-summary .summary ul.charges {
+	padding: 0;
+	margin: 0 0 15px;
+	list-style: none;
+}
+#MenuModal .cart-content .order-summary .summary ul.charges li {
+	margin-top: 7px;
+	color: #000000;
+	font-size: 18px;
+	font-family: "Ivy Mode";
+	font-weight: 600;
+}
+#MenuModal .cart-content .order-summary .summary ul.charges li span {
+	font-weight: 400;
+	margin-right: 10px;
+}
+#MenuModal .cart-content .order-summary .summary p i {
+	font-size: 12px;
+	color: #000000;
+	font-family: "Poppins";
+}
+#MenuModal .cart-content .order-summary .button-group {
+	display: flex;
+}
+#MenuModal .cart-content .order-summary .button-group button.btn {
+	width: 100%;
+	background: #e61212;
+	color: #fff;
+	font-family: "Poppins";
+	font-size: 13px;
+	font-weight: 500;
+	padding: 19px 50px;
+	margin: 0 5px;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#MenuModal .cart-content .order-summary .button-group button.btn i {
+	font-size: 20px;
+	font-weight: 600;
+}

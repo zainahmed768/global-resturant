@@ -1,0 +1,237 @@
+#checkoutModal .modal-dialog {
+	max-width: 75%;
+}
+#checkoutModal .modal-dialog .modal-header {
+	border: 0;
+}
+#checkoutModal .modal-dialog .modal-header button.close {
+	float: unset !important;
+	position: absolute;
+	right: 0;
+}
+#checkoutModal .modal-dialog .modal-header button.close {
+	color: #000 !important;
+	opacity: 1 !important;
+	right: 13px;
+	top: 10px;
+}
+#checkoutModal .modal-dialog .cart-content .heading-wrapper {
+	text-align: center;
+	max-width: 70%;
+	margin: 0px auto 40px;
+}
+#checkoutModal .modal-dialog .cart-content .heading-wrapper h2 {
+	font-family: "Ivy Mode";
+	color: #ff0000;
+	font-size: 35px;
+}
+#checkoutModal .modal-dialog .cart-content .heading-wrapper p {
+	font-size: 16px;
+	color: #000000;
+	font-family: "Poppins";
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#checkoutModal .cart-content .cart-products .cart-box {
+	border: 0;
+	padding: 30px 20px 10px;
+	position: relative;
+	background: #fff;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 0px;
+	border-bottom: 1px dashed #000;
+}
+#checkoutModal .cart-content .cart-products .cart-box .img-box img {
+	width: 320px;
+}
+#checkoutModal .cart-content .cart-products .cart-box .txt {
+	padding-left: 0px;
+}
+#checkoutModal .cart-content .cart-products .cart-box .txt h4:first-child {
+	text-transform: uppercase;
+	font-family: "Ivy Mode";
+	font-size: 14px;
+	color: #070707;
+}
+#checkoutModal .cart-content .cart-products .cart-box .txt p {
+	font-family: "Poppins";
+	font-size: 12px;
+	color: #000000a6;
+}
+#checkoutModal .cart-content .cart-products .cart-box .txt h4.price {
+	margin: 0;
+	font-size: 16px;
+	color: #000000;
+	font-family: "Ivy Mode";
+	font-weight: 600;
+}
+#checkoutModal .cart-content .cart-products .cart-box .txt h4.price span {
+	font-weight: 400;
+	margin-right: 7px;
+}
+#checkoutModal .cart-content .cart-products .cart-box .cancel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #ff0000;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#checkoutModal .cart-content .cart-products .cart-box figure {
+	margin: 0;
+}
+#checkoutModal .cart-content .cart-products::-webkit-scrollbar {
+	display: none;
+}
+#checkoutModal .cart-content .order-summary .summary {
+	border: 0;
+	padding: 30px 40px 25px;
+	position: relative;
+	background: #fff;
+	margin-bottom: 25px;
+}
+#checkoutModal .cart-content .order-summary .summary .title {
+	padding-bottom: 20px;
+}
+#checkoutModal .cart-content .order-summary .summary .title h2 {
+	color: #ff0000;
+	font-size: 22px;
+	font-family: "Ivy Mode";
+}
+#checkoutModal .cart-content .order-summary .summary ul.charges {
+	padding: 0;
+	margin: 0 0 15px;
+	list-style: none;
+}
+#checkoutModal .cart-content .order-summary .summary ul.charges li {
+	margin-top: 7px;
+	color: #000000;
+	font-size: 18px;
+	font-family: "Ivy Mode";
+	font-weight: 600;
+}
+#checkoutModal .cart-content .order-summary .summary ul.charges li span {
+	font-weight: 400;
+	margin-right: 10px;
+}
+#checkoutModal .cart-content .order-summary .summary p i {
+	font-size: 12px;
+	color: #000000;
+	font-family: "Poppins";
+}
+#checkoutModal .cart-content .order-summary .button-group {
+	display: flex;
+}
+#checkoutModal .cart-content .order-summary .button-group button.btn {
+	width: 100%;
+	background: #e61212;
+	color: #fff;
+	font-family: "Poppins";
+	font-size: 13px;
+	font-weight: 500;
+	padding: 19px 50px;
+	margin: 0 5px;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#checkoutModal .cart-content .order-summary .button-group button.btn i {
+	font-size: 20px;
+	font-weight: 600;
+}
+#checkoutModal .cart-content .right-side {
+	border: 1px dashed #000;
+}
+#checkoutModal .right-side .heading {
+	padding: 15px 30px 0;
+}
+#checkoutModal .right-side .heading h2 {
+	text-transform: uppercase;
+	font-family: "Ivy Mode";
+	font-size: 22px;
+	color: #ff0000;
+}
+#checkoutModal .shipping label {
+	font-family: "Poppins";
+	font-weight: 500;
+	color: #2a263d;
+}
+#checkoutModal .shipping .form-control {
+	border-radius: 0;
+	font-size: 13px;
+	font-family: "Poppins";
+	color: #2a263d;
+	font-weight: 500;
+	height: 50px;
+	padding: 5px 20px;
+	border: 1px dashed #000;
+}
+#checkoutModal .shipping .title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#checkoutModal .shipping .title h4 {
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #000;
+}
+#checkoutModal .bottom-bar {
+	border-top: 1px dashed #000;
+	margin-top: 20px;
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#checkoutModal .bottom-bar .left {
+	display: flex;
+	align-items: center;
+}
+#checkoutModal .bottom-bar .left input {
+	width: unset;
+}
+#checkoutModal .bottom-bar .left lable {
+	margin: 0 !important;
+}
+#checkoutModal .bottom-bar .left label {
+	margin: 0;
+	font-family: "poppins";
+	font-size: 14px;
+	margin-left: 10px;
+}
+#checkoutModal .bottom-bar button.btn {
+	width: 100%;
+	background: #e61212;
+	color: #fff;
+	font-family: "Poppins";
+	font-size: 13px;
+	font-weight: 500;
+	padding: 11px 50px;
+	margin: 0 5px;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#checkoutModal .bottom-bar button.btn i {
+	font-size: 25px;
+	font-weight: 600;
+}
+#checkoutModal .modal-dialog .cart-content {
+	height: 600px;
+	overflow-y: scroll;
+	padding: 0 20px;
+}
+#checkoutModal .modal-dialog .cart-content::-webkit-scrollbar {
+	display: none;
+}
