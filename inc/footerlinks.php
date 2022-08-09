@@ -32,5 +32,9 @@
             $('#checkoutModal').modal('show');
             $('.modal-backdrop.show').hide();
         })
+        $('.close-icons i').click(function() {
+            $('div[aria-labelledby="myLargeModalLabel"]').modal().hide();
+            $('.modal-backdrop.show').hide();
+        })
     })
 </script>
