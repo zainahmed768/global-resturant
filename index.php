@@ -49,8 +49,8 @@
                         </div>
                     </div>
                     <div class="dish-wrapper dish4-wrapper">
-                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal"> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productdetail">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal">
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productdetail"> -->
                             <div class="dish-img-wrapper">
                                 <img src="img/dish4.png" class="img-fluid" alt="">
                             </div>
@@ -488,7 +488,8 @@
                             </div>
                             <div class="course-flex">
                                 <div class="course-box">
-                                    <button type="button" data-toggle="modal" data-target="#MenuModal">
+                                    <!-- <button type="button" data-toggle="modal" data-target="#MenuModal"> -->
+                                    <button type="button" data-toggle="modal" data-target="#productdetail">
                                         <div class="img_box">
                                             <figure><img src="img/course1.png" alt="" class="img-fluid"></figure>
                                             <div class="price">
@@ -952,7 +953,7 @@
                                     </p>
                                 </div>
                                 <div class="cart-btn-wrapper">
-                                    <button type="button" data-toggle="modal" data-target="#courseModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">ADD TO ORDER</span></button>
+                                    <button type="button" data-toggle="modal" data-target="#MenuModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">ADD TO ORDER</span></button>
                                 </div>
                                 <div class="review-wrapper">
                                     <div class="review-heading-wrapper">
