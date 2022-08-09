@@ -115,3 +115,7 @@
 	top: -30%;
 }
 /* banner ends here */
+.banner-sec button.btn.btn-primary {
+	position: relative;
+	z-index: 9;
+}
