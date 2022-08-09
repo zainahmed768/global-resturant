@@ -102,7 +102,94 @@
                 </div>
             </div>
         </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MenuModal">
+            Launch demo modal
+        </button>
     </div>
 </section>
+
+<!-- Menu Modal -->
+<div class="modal fade" id="MenuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="cart-content">
+                    <div class="heading-wrapper">
+                        <h2>MY CART</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Magna ac placerat vestibulum lectus mauris ultrices. Nec feugiat nisl pretium fusce id. Sed risus pretium quam vulputate.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="cart-products">
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="order-summary">
+                                <div class="title">
+                                    <h2>ORDER SUMMARY</h2>
+                                </div>
+                                <ul class="charges">
+                                    <li><span>DELIVERY CHARGES :</span>$170.58</li>
+                                    <li><span>SUBTOTAL :</span>$170.58</li>
+                                </ul>
+                                <p><i>Taxes and discounts will be calculated at checkout</i></p>
+                                <div class="button-group">
+                                    <button class="btn"><i class="fa fa-angle-right" aria-hidden="true"></i> UPDATE CART</button>
+                                    <button class="btn"><i class="fa fa-angle-right" aria-hidden="true"></i> CHECKOUT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Modal -->
+
 <!-- banner ends here -->
 <?php include 'inc/footer.php'; ?>
