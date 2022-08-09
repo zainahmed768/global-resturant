@@ -6,6 +6,15 @@
             <div class="col-lg-12">
                 <div class="all-dish-wrapper">
                     <div class="dish-wrapper dish1-wrapper">
+
+                        <div class="dish-img-wrapper">
+                            <img src="img/dish1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="dish-content-wrapper">
+                            <h4>BEEF</h4>
+                        </div>
+                    </div>
+                    <div class="dish-wrapper dish-wrapper invisible">
                         <div class="dish-img-wrapper">
                             <img src="img/dish1.png" class="img-fluid" alt="">
                         </div>
@@ -62,7 +71,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="world-wrapper">
                     <div class="world-img-wrapper">
                         <img src="img/world.png" class="img-fluid" alt="">
@@ -71,6 +79,7 @@
                         <div class="usa1-flag-wrapper">
                             <button class="usa">
                                 <img src="img/usa.png" alt="">
+
                             </button>
                         </div>
                         <div class="italy-flag-wrapper">
@@ -81,6 +90,7 @@
                         <div class="uk-flag-wrapper">
                             <button class="uk">
                                 <img src="img/uk.png" alt="">
+                                <span>RESTAURANT lOCATION</span>
                             </button>
                         </div>
                         <div class="usa-flag-wrapper">
