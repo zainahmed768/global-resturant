@@ -23,10 +23,14 @@
 
         $('#courseModal .course-box button').click(function() {
             $('#courseModal').modal().hide();
+            $('#courseModal').removeClass('show');
+            $('.modal-backdrop.show').hide();
+
         })
         $('#MenuModal .cart-content .order-summary .button-group button').click(function() {
             $('#MenuModal').modal().hide();
             $('#checkoutModal').modal('show');
+            $('.modal-backdrop.show').hide();
         })
     })
 </script>
