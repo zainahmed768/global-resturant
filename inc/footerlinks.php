@@ -20,12 +20,10 @@
             $("header .mobile-header").removeClass('show');
         });
         // Mobile Nav
-
         $('#courseModal .course-box button').click(function() {
             $('#courseModal').modal().hide();
             $('#courseModal').removeClass('show');
             $('.modal-backdrop.show').hide();
-
         })
         $('#MenuModal .cart-content .order-summary .button-group button').click(function() {
             $('#MenuModal').modal().hide();
@@ -34,6 +32,11 @@
         })
         $('.close-icons i').click(function() {
             $('div[aria-labelledby="myLargeModalLabel"]').modal().hide();
+            $('.modal-backdrop.show').hide();
+        })
+        $('.product-detail-wrapper .cart-btn-wrapper button').click(function() {
+            $('div#productdetail').modal().hide();
+            // $('#checkoutModal').modal('show');
             $('.modal-backdrop.show').hide();
         })
     })

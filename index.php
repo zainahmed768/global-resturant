@@ -7,9 +7,8 @@
 <link rel="stylesheet" href="css/menu.css">
 <link rel="stylesheet" href="css/checkout.css">
 <link rel="stylesheet" href="css/course.css">
+<link rel="stylesheet" href="css/product-detail.css">
 <!-- Stylesheet -->
-
-<!-- >>>>>>> f8bc61c729b44e0fbec7e74ae40d6956be3cc1c6 -->
 <!-- banner starts here -->
 <section class="banner-sec">
     <div class="container">
@@ -50,7 +49,8 @@
                         </div>
                     </div>
                     <div class="dish-wrapper dish4-wrapper">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal">
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal"> -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productdetail">
                             <div class="dish-img-wrapper">
                                 <img src="img/dish4.png" class="img-fluid" alt="">
                             </div>
@@ -133,6 +133,9 @@
             Checkout
         </button>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseModal">
+            Course
+        </button> -->
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productdetail">
             Course
         </button> -->
     </div>
@@ -893,6 +896,118 @@
                                         <h3>Korean Inspired</h3>
                                         <p>GALBI – SHORT RIBS (+ $2)</p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Course Modal -->
+
+<!-- Course Modal -->
+<div class="modal fade" id="productdetail" tabindex="-1" role="dialog" aria-labelledby="productdetailCenter" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                <button><i class="fa fa-heart"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="product-detail-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="product-img-wrapper">
+                                    <figure>
+                                        <img src="img/pro1.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                                <div class="product-gallery-img-wrapper">
+                                    <ul>
+                                        <li>
+                                            <img src="img/pro2.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="img/pro3.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="img/pro4.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="img/pro4.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="product-detail-content-wrapper">
+                                    <h2>Delightful Experience</h2>
+                                    <p>
+                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam. Morbi eu mi fringilla, bibendum nunc hendrerit, varius mauris. Nam hendrerit eu turpis at mattis. Morbi rutrum velit nunc,
+                                    </p>
+                                </div>
+                                <div class="cart-btn-wrapper">
+                                    <button type="button" data-toggle="modal" data-target="#courseModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">ADD TO ORDER</span></button>
+                                </div>
+                                <div class="review-wrapper">
+                                    <div class="review-heading-wrapper">
+                                        <h4>Have You Tried This Item?</h4>
+                                        <textarea name="" class="form-control" id="" cols="30" placeholder="Write A Review Here.." rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="client-review-wrapper">
+                                    <ul>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review1.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review2.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review3.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
