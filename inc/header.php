@@ -1,7 +1,8 @@
 <header id="header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-11">
                 <div class="canvas-icon">
                     <img src="img/toggle.png" alt="">
                 </div>
