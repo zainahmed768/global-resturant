@@ -1,0 +1,94 @@
+.contact-head h3 {
+	font-size: 35px;
+	color: #ff0000;
+	font-family: "Ivy Mode Bold";
+	padding-bottom: 14px;
+}
+.contact-head p {
+	font-size: 18px;
+	color: #000000;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.contact-head {
+	text-align: center;
+}
+
+.contact-sec-all input {
+	border: 1px dashed;
+	border-radius: unset;
+	padding: 15px 14px;
+	margin: 13px 0px;
+}
+.contact-sec-all {
+	padding: 80px 240px;
+	position: relative;
+	box-shadow: 0px 0px 50px #707070;
+}
+.contact-sec-all textarea#exampleFormControlTextarea1 {
+	border: 1px dashed;
+	height: 160px;
+	resize: none;
+	border-radius: uyn;
+	border-radius: unset;
+	margin-top: 13px;
+	padding: 20px 12px;
+}
+
+.form-contact-submit-btn button {
+	font-size: 14px;
+	color: #ffffff;
+	width: 20%;
+	font-family: "Poppins";
+	font-weight: 500;
+	background-color: #e61212;
+	/* width: 100%; */
+	padding: 18px 42px;
+	/* border-radius: unset; */
+	border: unset;
+	border-radius: 40px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.contact-sec-all .form-contact-submit-btn {
+	text-align: -webkit-right;
+	margin-top: 20px;
+}
+
+.modal-lg {
+	max-width: 75%;
+}
+
+.close-icons {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+.close-icons i {
+	cursor: pointer;
+}
+.form-contact-submit-btn button::before {
+	content: "\f105";
+	font-family: "FontAwesome";
+	font-weight: 900;
+	position: absolute;
+	left: 22px;
+	font-size: 29px;
+	top: 7px;
+}
+
+.contact-sec-all input::placeholder {
+	font-size: 12px;
+	color: #707070a1;
+	font-family: "Poppins";
+}
+
+.contact-sec-all textarea#exampleFormControlTextarea1::placeholder {
+	font-size: 12px;
+	color: #707070a1;
+	font-family: "Poppins";
+}

@@ -1,4 +1,5 @@
 <?php include 'inc/app.php'; ?>
+<link rel="stylesheet" href="css/contact.css">
 <!-- banner starts here -->
 <section class="banner-sec">
     <div class="container">
@@ -112,7 +113,171 @@
                 </div>
             </div>
         </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MenuModal">
+            Launch demo modal
+        </button>
     </div>
 </section>
+<!-- banner ends here -->
+<!--Contact secton starts here -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-sec-all">
+                        <div class="close-icons">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="contact-head">
+                            <h3>CONTACT US</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin
+                                ac.
+                                Magna ac.</p>
+
+
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comment Here..." rows="3"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-contact-submit-btn">
+                                            <button> Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Contact secton Ends here -->
+
+<!-- Menu Modal -->
+<div class="modal fade" id="MenuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="cart-content">
+                    <div class="heading-wrapper">
+                        <h2>MY CART</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Magna ac placerat vestibulum lectus mauris ultrices. Nec feugiat nisl pretium fusce id. Sed risus pretium quam vulputate.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="cart-products">
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                                <div class="cart-box">
+                                    <div class="cancel">
+                                        X
+                                    </div>
+                                    <div class="img-box">
+                                        <figure><img src="img/cart1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Ivy Mode</h4>
+                                        <p>psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. </p>
+                                        <h4 class="price"><span>PRICE :</span>$170.58</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="order-summary">
+                                <div class="title">
+                                    <h2>ORDER SUMMARY</h2>
+                                </div>
+                                <ul class="charges">
+                                    <li><span>DELIVERY CHARGES :</span>$170.58</li>
+                                    <li><span>SUBTOTAL :</span>$170.58</li>
+                                </ul>
+                                <p><i>Taxes and discounts will be calculated at checkout</i></p>
+                                <div class="button-group">
+                                    <button class="btn"><i class="fa fa-angle-right" aria-hidden="true"></i> UPDATE CART</button>
+                                    <button class="btn"><i class="fa fa-angle-right" aria-hidden="true"></i> CHECKOUT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Modal -->
+
 <!-- banner ends here -->
 <?php include 'inc/footer.php'; ?>

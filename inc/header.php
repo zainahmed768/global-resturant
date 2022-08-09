@@ -22,7 +22,7 @@
             </div>
             <ul class="mobile-nav">
                 <li class="nav-item"><a href="#"><span>♦</span> MENU</a></li>
-                <li class="nav-item"><a href="#"><span>♦</span> CONTACT</a></li>
+                <li class="nav-item"><button type="button" class="btn" data-toggle="modal" data-target=".bd-example-modal-lg"><span>♦</span> CONTACT</button></li>
             </ul>
         </div>
 
