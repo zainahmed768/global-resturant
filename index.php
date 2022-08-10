@@ -15,8 +15,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="all-dish-wrapper">
-                    <div class="dish-wrapper dish1-wrapper">
-
+                    <div class="dish-wrapper dish1-wrapper wow animate__animated animate__bounceIn">
                         <div class="dish-img-wrapper">
                             <img src="img/dish1.png" class="img-fluid" alt="">
                         </div>
@@ -87,39 +86,39 @@
                 </div>
                 <div class="world-wrapper">
                     <div class="world-img-wrapper">
-                        <img src="img/world.png" class="img-fluid" alt="">
+                        <img src="img/world.png" class="img-fluid wow animate__animated animate__zoomInDown" alt="">
                     </div>
-                    <div class="world-flag-wrapper">
+                    <div class="world-flag-wrapper ">
                         <div class="usa1-flag-wrapper">
                             <button class="usa">
-                                <img src="img/usa.png" alt="">
+                                <img src="img/usa.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
 
                             </button>
                         </div>
                         <div class="italy-flag-wrapper">
                             <button class="italy">
-                                <img src="img/italy.png" alt="">
+                                <img src="img/italy.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
                             </button>
                         </div>
                         <div class="uk-flag-wrapper">
                             <button class="uk">
-                                <img src="img/uk.png" alt="">
+                                <img src="img/uk.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
                                 <span>RESTAURANT lOCATION</span>
                             </button>
                         </div>
                         <div class="usa-flag-wrapper">
                             <button class="usa2">
-                                <img src="img/usa2.png" alt="">
+                                <img src="img/usa2.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
                             </button>
                         </div>
                         <div class="russia-flag-wrapper">
                             <button class="russia">
-                                <img src="img/russia.png" alt="">
+                                <img src="img/russia.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
                             </button>
                         </div>
                         <div class="germany-flag-wrapper">
                             <button class="germany">
-                                <img src="img/germany.png" alt="">
+                                <img src="img/germany.png" class="wow animate__animated animate__bounce animate__delay-1s"   alt="">
                             </button>
                         </div>
                     </div>
