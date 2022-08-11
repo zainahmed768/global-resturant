@@ -45,6 +45,16 @@
             $('#checkoutModal').modal('show');
             $('.modal-backdrop.show').hide();
         })
+        $('#MaincourseModal .course-box button').click(function() {
+            $('#MaincourseModal').modal().hide();
+            $('#MainMenu').modal('show');
+            $('.modal-backdrop.show').hide();
+        })
+        $('#MainMenu button').click(function() {
+            $('#MainMenu').modal().hide();
+            $('#MenuModal').modal('show');
+            $('.modal-backdrop.show').hide();
+        })
         $('.close-icons i').click(function() {
             $('div[aria-labelledby="myLargeModalLabel"]').modal().hide();
             $('.modal-backdrop.show').hide();

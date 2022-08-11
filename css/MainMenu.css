@@ -1,4 +1,4 @@
-#productdetail .modal-dialog {
+div#MainMenu .modal-dialog {
 	max-width: 75%;
 }
 .product-detail-wrapper .product-gallery-img-wrapper ul {
@@ -52,7 +52,7 @@
 	font-weight: 400;
 	margin-top: 25px;
 }
-#productdetail .modal-header {
+div#MainMenu .modal-header {
 	border: 0px;
 	justify-content: end;
 }
@@ -112,7 +112,7 @@
 	border-right: 1px solid #ffffff6e;
 	padding-right: 15px;
 }
-#productdetail .modal-header button {
+div#MainMenu .modal-header button {
 	background: transparent;
 	height: 29px;
 	width: 29px;
@@ -124,7 +124,7 @@
 	color: #e61212;
 	border: 1px solid #707070;
 }
-#productdetail .product-img-wrapper img {
+div#MainMenu .product-img-wrapper img {
 	height: 368px;
 	width: 100%;
 	border-radius: 19px;

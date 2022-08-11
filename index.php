@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="css/menu.css">
 <link rel="stylesheet" href="css/checkout.css">
 <link rel="stylesheet" href="css/course.css">
+<link rel="stylesheet" href="css/Maincourse.css">
 <link rel="stylesheet" href="css/product-detail.css">
+<link rel="stylesheet" href="css/MainMenu.css">
 <!-- Stylesheet -->
 <!-- banner starts here -->
 <section class="banner-sec">
@@ -20,7 +22,7 @@
                             <img src="img/dish1.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>Japanese inspired</h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish-wrapper invisible">
@@ -28,7 +30,7 @@
                             <img src="img/dish1.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4></h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish2-wrapper">
@@ -36,7 +38,7 @@
                             <img src="img/dish2.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>Thai inspired</h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish3-wrapper">
@@ -44,7 +46,7 @@
                             <img src="img/dish3.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>Malaysian inspired</h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish4-wrapper">
@@ -54,7 +56,7 @@
                                 <img src="img/dish4.png" class="img-fluid" alt="">
                             </div>
                             <div class="dish-content-wrapper">
-                                <h4>BEEF</h4>
+                                <h4>Italian inspired</h4>
                             </div>
                         </button>
 
@@ -64,7 +66,7 @@
                             <img src="img/dish5.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>Taiwanese inspired</h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish6-wrapper">
@@ -72,7 +74,7 @@
                             <img src="img/dish6.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>English inspired</h4>
                         </div>
                     </div>
                     <div class="dish-wrapper dish7-wrapper">
@@ -80,7 +82,7 @@
                             <img src="img/dish7.png" class="img-fluid" alt="">
                         </div>
                         <div class="dish-content-wrapper">
-                            <h4>BEEF</h4>
+                            <h4>American inspired</h4>
                         </div>
                     </div>
                 </div>
@@ -118,7 +120,7 @@
                         </div>
                         <div class="germany-flag-wrapper">
                             <button class="germany">
-                                <img src="img/germany.png" class="wow animate__animated animate__bounce animate__delay-1s"   alt="">
+                                <img src="img/germany.png" class="wow animate__animated animate__bounce animate__delay-1s" alt="">
                             </button>
                         </div>
                     </div>
@@ -477,31 +479,31 @@
             <div class="modal-body">
                 <div class="cart-content">
                     <div class="heading-wrapper">
-                        <h2>CHOICE OF MAIN COURSE</h2>
+                        <h2>MENU</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Magna ac placerat vestibulum lectus mauris ultrices. Nec feugiat nisl pretium fusce id. Sed risus pretium quam vulputate.</p>
                     </div>
                     <div class="all-courses">
                         <div class="courses">
                             <div class="title-wrapper">
-                                <h2>BEEF</h2>
+                                <h2>Entrée</h2>
                             </div>
                             <div class="course-flex">
                                 <div class="course-box">
                                     <!-- <button type="button" data-toggle="modal" data-target="#MenuModal"> -->
                                     <button type="button" data-toggle="modal" data-target="#productdetail">
                                         <div class="img_box">
-                                            <figure><img src="img/course1.png" alt="" class="img-fluid"></figure>
+                                            <figure><img src="img/Creamyfarfalleaugratin.jpg" alt="" class="img-fluid"></figure>
                                             <div class="price">
                                                 <h4>$10.50</h4>
                                             </div>
                                         </div>
                                     </button>
                                     <div class="content">
-                                        <h3>Korean Inspired</h3>
-                                        <p>GALBI – SHORT RIBS (+ $2)</p>
+                                        <h3>CREAMY FARFALLE AU GRATIN</h3>
+                                        <p>(BEEF/CHICKEN/SHRIMP)</p>
                                     </div>
                                 </div>
-                                <div class="course-box">
+                                <!-- <div class="course-box">
                                     <a href="#">
                                         <div class="img_box">
                                             <figure><img src="img/course2.png" alt="" class="img-fluid"></figure>
@@ -556,10 +558,10 @@
                                         <h3>Korean Inspired</h3>
                                         <p>GALBI – SHORT RIBS (+ $2)</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
-                        <div class="courses">
+                        <!-- <div class="courses">
                             <div class="title-wrapper">
                                 <h2>PORK</h2>
                             </div>
@@ -733,8 +735,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="title">
+                        </div> -->
+                        <!-- <div class="title">
                             <h4>CHOISE OF Entrée</h4>
                             <p>Noodles, Rice and Potatoes</p>
                         </div>
@@ -898,7 +900,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -906,8 +908,108 @@
     </div>
 </div>
 <!-- Course Modal -->
-
-<!-- Course Modal -->
+<!-- Main Course Modal -->
+<div class="modal fade" id="MaincourseModal" tabindex="-1" role="dialog" aria-labelledby="MaincourseModalCenter" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="cart-content">
+                    <div class="heading-wrapper">
+                        <h2>MENU </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Magna ac placerat vestibulum lectus mauris ultrices. Nec feugiat nisl pretium fusce id. Sed risus pretium quam vulputate.</p>
+                    </div>
+                    <div class="all-courses">
+                        <div class="courses">
+                            <div class="title-wrapper">
+                                <h2>MAIN COURSE</h2>
+                            </div>
+                            <div class="course-flex">
+                                <div class="course-box">
+                                    <!-- <button type="button" data-toggle="modal" data-target="#MenuModal"> -->
+                                    <button type="button" data-toggle="modal" data-target="#MainMenu">
+                                        <div class="img_box">
+                                            <figure><img src="img/Bacon-wrapped-chicken-with-parmesan-cheese.jpg" alt="" class="img-fluid"></figure>
+                                            <div class="price">
+                                                <h4>$10.50</h4>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="content">
+                                        <h3>CREAMY FARFALLE AU GRATIN</h3>
+                                        <p>(BEEF/CHICKEN/SHRIMP)</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="course-box">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <figure><img src="img/course2.png" alt="" class="img-fluid"></figure>
+                                            <div class="price">
+                                                <h4>$10.50</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="content">
+                                        <h3>Korean Inspired</h3>
+                                        <p>GALBI – SHORT RIBS (+ $2)</p>
+                                    </div>
+                                </div>
+                                <div class="course-box">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <figure><img src="img/course3.png" alt="" class="img-fluid"></figure>
+                                            <div class="price">
+                                                <h4>$10.50</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="content">
+                                        <h3>Korean Inspired</h3>
+                                        <p>GALBI – SHORT RIBS (+ $2)</p>
+                                    </div>
+                                </div>
+                                <div class="course-box">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <figure><img src="img/course4.png" alt="" class="img-fluid"></figure>
+                                            <div class="price">
+                                                <h4>$10.50</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="content">
+                                        <h3>Korean Inspired</h3>
+                                        <p>GALBI – SHORT RIBS (+ $2)</p>
+                                    </div>
+                                </div>
+                                <div class="course-box">
+                                    <a href="#">
+                                        <div class="img_box">
+                                            <figure><img src="img/course5.png" alt="" class="img-fluid"></figure>
+                                            <div class="price">
+                                                <h4>$10.50</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="content">
+                                        <h3>Korean Inspired</h3>
+                                        <p>GALBI – SHORT RIBS (+ $2)</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Course Modal -->
+<!-- productdetailCenter Modal -->
 <div class="modal fade" id="productdetail" tabindex="-1" role="dialog" aria-labelledby="productdetailCenter" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -924,35 +1026,35 @@
                             <div class="col-lg-5">
                                 <div class="product-img-wrapper">
                                     <figure>
-                                        <img src="img/pro1.png" class="img-fluid" alt="">
+                                        <img src="img/Creamyfarfalleaugratin.jpg" class="img-fluid" alt="">
                                     </figure>
                                 </div>
                                 <div class="product-gallery-img-wrapper">
                                     <ul>
                                         <li>
-                                            <img src="img/pro2.png" alt="">
+                                            <img src="img/Creamyfarfalleaugratin2.jpg" alt="">
                                         </li>
                                         <li>
-                                            <img src="img/pro3.png" alt="">
+                                            <img src="img/Creamyfarfalleaugratin3.jpg" alt="">
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <img src="img/pro4.png" alt="">
                                         </li>
                                         <li>
                                             <img src="img/pro4.png" alt="">
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="product-detail-content-wrapper">
-                                    <h2>Delightful Experience</h2>
+                                    <h2>CREAMY FARFALLE AU GRATIN</h2>
                                     <p>
-                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam. Morbi eu mi fringilla, bibendum nunc hendrerit, varius mauris. Nam hendrerit eu turpis at mattis. Morbi rutrum velit nunc,
+                                        (BEEF/CHICKEN/SHRIMP)
                                     </p>
                                 </div>
                                 <div class="cart-btn-wrapper">
-                                    <button type="button" data-toggle="modal" data-target="#MenuModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">ADD TO ORDER</span></button>
+                                    <button type="button" data-toggle="modal" data-target="#MaincourseModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">Select Course</span></button>
                                 </div>
                                 <div class="review-wrapper">
                                     <div class="review-heading-wrapper">
@@ -1017,7 +1119,118 @@
         </div>
     </div>
 </div>
-<!-- Course Modal -->
-
+<!-- productdetailCenter Modal -->
+<!-- MainMenu Modal -->
+<div class="modal fade" id="MainMenu" tabindex="-1" role="dialog" aria-labelledby="MainMenuCenter" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                <button><i class="fa fa-heart"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="product-detail-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="product-img-wrapper">
+                                    <figure>
+                                        <img src="img/Bacon-wrapped-chicken-with-parmesan-cheese.jpg" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                                <div class="product-gallery-img-wrapper">
+                                    <ul>
+                                        <li>
+                                            <img src="img/Bacon-wrapped-chicken-with-parmesan-cheese.jpg" alt="">
+                                        </li>
+                                        <!-- <li>
+                                            <img src="img/Creamyfarfalleaugratin3.jpg" alt="">
+                                        </li> -->
+                                        <!-- <li>
+                                            <img src="img/pro4.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="img/pro4.png" alt="">
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="product-detail-content-wrapper">
+                                    <h2>BACON WRAPPED CHICKEN WITH
+                                        PARMESAN CHEESE</h2>
+                                    <!-- <p>
+                                        (BEEF/CHICKEN/SHRIMP)
+                                    </p> -->
+                                </div>
+                                <div class="cart-btn-wrapper">
+                                    <button type="button" data-toggle="modal" data-target="#MenuModal"><span class="cart-icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <span class="btn-text">Select Course</span></button>
+                                </div>
+                                <div class="review-wrapper">
+                                    <div class="review-heading-wrapper">
+                                        <h4>Have You Tried This Item?</h4>
+                                        <textarea name="" class="form-control" id="" cols="30" placeholder="Write A Review Here.." rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="client-review-wrapper">
+                                    <ul>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review1.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review2.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="client-review-content">
+                                                <div class="client-img-wrapper">
+                                                    <figure>
+                                                        <img src="img/review3.png" class="img-fluid" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="client-content-wrapper">
+                                                    <p>
+                                                        psum dolor sit amet, consectetur adipiscing elit. Duis commodo cursus libero, non ornare eros tempus eu. Mauris nisi augue, consectetur eget a, dignissim molestie diam.
+                                                    </p>
+                                                    <h6>JOHN DOE</h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MainMenu Modal -->
 <!-- banner ends here -->
 <?php include 'inc/footer.php'; ?>
